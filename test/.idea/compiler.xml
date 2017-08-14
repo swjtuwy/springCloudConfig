@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configclient" />
+        <module name="configserver" />
+        <module name="eurekaserver" />
+        <module name="feign_eurekaserver" />
+        <module name="feign_servicefeign" />
+        <module name="hystrix_servicefeign" />
+        <module name="hystrix_serviceribbon" />
+        <module name="ribbon_eurekaserver" />
+        <module name="ribbon_servicehi" />
+        <module name="ribbon_serviceribbon" />
+        <module name="ribbone_eurekaserver" />
+        <module name="springsimple01" />
+        <module name="zuul_servicezuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="configclient" target="1.6" />
+      <module name="configserver" target="1.6" />
+      <module name="eurekaserver" target="1.6" />
+      <module name="eurekaserver_ribbon" target="1.6" />
+      <module name="feign_eurekaserver" target="1.6" />
+      <module name="feign_servicefeign" target="1.6" />
+      <module name="hystrix_eurekaserver" target="1.6" />
+      <module name="hystrix_servicefeign" target="1.6" />
+      <module name="hystrix_serviceribbon" target="1.6" />
+      <module name="ribbon_eurekaserver" target="1.6" />
+      <module name="ribbon_servicehi" target="1.6" />
+      <module name="ribbon_serviceribbon" target="1.6" />
+      <module name="ribbone_eureka-server" target="1.6" />
+      <module name="ribbone_eurekaserver" target="1.6" />
+      <module name="springsimple01" target="1.8" />
+      <module name="test" target="1.6" />
+      <module name="zuul_servicezuul" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
